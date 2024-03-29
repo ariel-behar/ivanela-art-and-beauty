@@ -11,7 +11,6 @@ function Nav() {
 
     const toggleMenu = () => {
         setIsMenuOpen(!isMenuOpen)
-        console.log('hello');
     }
 
     return (
@@ -28,7 +27,7 @@ function Nav() {
                 </button>
             </div>
 
-            <NavMobile isMenuOpen={isMenuOpen} />
+            <NavMobile isMenuOpen={isMenuOpen} toggleMenu={toggleMenu}/>
         </nav>
     )
 }
