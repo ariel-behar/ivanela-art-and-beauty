@@ -15,7 +15,9 @@ const config: Config = {
 					dark: "#E4C6BC"
 				},
 				brown: "#AB8872",
-				gold: "#DCB559"
+				gold: "#DCB559",
+				viber: "#7360F2",
+				whatsapp: "#25D366"
 			}
 		},
 	},
